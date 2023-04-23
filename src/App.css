@@ -1,0 +1,29 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-area, .output-area {
+  width: 50%;
+  height: 76vh;
+  margin: 2vh;
+  padding: 2%;
+  border-radius: 2%;
+}
+
+.input-area {
+  background-color: #e0e1dd;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+.output-area {
+  background-color: #778da9;
+}
